@@ -8,6 +8,24 @@ Tell whether a person in a frontal face photo is wearing camera smart glasses, a
 
 Every sample above comes from the held-out test set. Green means the camera verdict and the product are both right. Orange means the camera verdict is right but the product is wrong.
 
+## Demo
+
+[![Detection demo](docs/demo.gif)](docs/demo.mp4)
+
+Eight three-second clips from five videos that were never used for training or testing. Click the image for the full-quality video (27 seconds, no sound). The label at the bottom left is what the person is actually wearing. The box and the name are what the model says frame by frame: red for camera glasses, yellow for smart glasses without a camera, gray for no camera glasses.
+
+The camera verdict is right in all eight clips. The product name is right in four of the five smart glasses clips: the Rokid clip is detected as camera glasses but named Samsung Intelligent Eyewear. Clips were chosen by where a frontal face with glasses is visible, not by whether the model got them right.
+
+| Clip | Source video |
+|---|---|
+| Oakley Meta HSTN, Ray-Ban Meta Wayfarer | [CEONTHEMAKING, "Ray Ban Meta Gen 2 vs Oakley HSTN: The Truth After 60 Days!"](https://www.youtube.com/watch?v=kfbxKanX5D4) |
+| Ordinary glasses | [Brittni D., "Zeelool Glasses Try-On Haul!"](https://www.youtube.com/watch?v=KDBnPk1xEKA) |
+| Meta Ray-Ban Display, no glasses | [Ray-Ban \| Meta, "These AI Glasses Will Change Your Life? Meta Ray-Ban Display Review"](https://www.youtube.com/watch?v=aEglZkaLSig) |
+| Rokid Glasses, no glasses | [ROAM it RALPH, "Are Smart Glasses Finally Worth Wearing? Rokid AI Glasses"](https://www.youtube.com/watch?v=SSWfdl9MToA) |
+| XREAL | [Garett, "Can AR Glasses Replace My Gaming Monitor? XREAL 1 Pro+ Review"](https://www.youtube.com/watch?v=1ZhGa8vGjOQ) |
+
+The clips belong to their creators and are shown here for non-commercial research. To make a demo like this from your own list of videos, see `src/demo_scan.py`, `src/demo_video.py` and `src/demo_reel.py`.
+
 ## What it recognizes
 
 The target is every camera smart glasses product sold in South Korea as of November 2026.
@@ -143,6 +161,7 @@ Training took about two and a half hours on an Apple M1 with 16 GB of memory.
 - `src/build_list.py`, `src/build_test_list.py` training and test lists
 - `src/train.py`, `src/predict.py`, `src/evaluate.py`, `src/export.py` training, scoring, evaluation, export
 - `src/gallery.py`, `src/make_figures.py` result gallery and the figures on this page
+- `src/demo_scan.py`, `src/demo_video.py`, `src/demo_reel.py` the demo video
 
 ## License
 
@@ -158,4 +177,4 @@ Third-party materials and their licenses are listed in [NOTICE.md](NOTICE.md). P
 
 ## Removal requests
 
-The dataset contains eye-region crops taken from public videos and photos. If you appear in it, or you own the source, and you want it removed, open an [issue](https://github.com/fattaillabs/smartglasses-detect/issues) with the file name or the source address. It will be removed from the next dataset release.
+The dataset contains eye-region crops taken from public videos and photos, and the demo video above shows short clips of public videos. If you appear in it, or you own the source, and you want it removed, open an [issue](https://github.com/fattaillabs/smartglasses-detect/issues) with the file name or the source address. It will be removed from the next dataset release.

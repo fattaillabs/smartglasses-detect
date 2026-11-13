@@ -15,7 +15,7 @@ This project is released under CC BY-NC-SA 4.0 (see [LICENSE](LICENSE)). It buil
 | Flickr-Faces-HQ (FFHQ) | Negative examples: ordinary glasses and bare faces. Only eye-band crops are redistributed, in the dataset release. | CC BY-NC-SA 4.0 for the dataset. Each photo also carries its own license (CC BY 2.0, CC BY-NC 2.0, Public Domain Mark 1.0, CC0 1.0 or U.S. Government Works). | NVIDIA Corporation, https://github.com/NVlabs/ffhq-dataset |
 | FFHQ eyeglasses annotations | Deciding which FFHQ photos contain glasses. The annotation files are not redistributed. | CC BY-NC-ND 4.0 | D. Matuzevičius, Zenodo, https://doi.org/10.5281/zenodo.14252074 |
 | ResNet18 pretrained weights (`resnet18.a1_in1k`) | Starting point for both branches of the model | Apache-2.0, trained on ImageNet-1k | Ross Wightman, PyTorch Image Models (timm) |
-| YouTube videos and image search results | Positive examples and look-alike negative examples. Only eye-band crops are redistributed, in the dataset release. | Copyright of each creator. Used here for non-commercial research. | Lists in `sources/` |
+| YouTube videos and image search results | Positive examples and look-alike negative examples. Only eye-band crops are redistributed, in the dataset release. The demo video (`docs/demo.mp4`) shows three-second clips of five videos, credited in the README. | Copyright of each creator. Used here for non-commercial research. | Lists in `sources/` |
 
 FFHQ attribution for each photo (author, source address and license) is in the official metadata file `ffhq-dataset-v1.json`. The FFHQ image number is kept in the file name of every crop that comes from FFHQ.
 

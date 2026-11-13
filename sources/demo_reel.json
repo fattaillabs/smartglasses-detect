@@ -1,0 +1,50 @@
+[
+ {
+  "vid": "kfbxKanX5D4",
+  "start": 110,
+  "len": 3,
+  "truth": "oakley_hstn"
+ },
+ {
+  "vid": "KDBnPk1xEKA",
+  "start": 165,
+  "len": 3,
+  "truth": "plain_glasses"
+ },
+ {
+  "vid": "aEglZkaLSig",
+  "start": 67.5,
+  "len": 3,
+  "truth": "display"
+ },
+ {
+  "vid": "aEglZkaLSig",
+  "start": 13.5,
+  "len": 3,
+  "truth": "no_glasses"
+ },
+ {
+  "vid": "SSWfdl9MToA",
+  "start": 145.5,
+  "len": 3,
+  "truth": "rokid"
+ },
+ {
+  "vid": "1ZhGa8vGjOQ",
+  "start": 3,
+  "len": 3,
+  "truth": "xreal"
+ },
+ {
+  "vid": "kfbxKanX5D4",
+  "start": 212,
+  "len": 3,
+  "truth": "wayfarer"
+ },
+ {
+  "vid": "SSWfdl9MToA",
+  "start": 75,
+  "len": 3,
+  "truth": "no_glasses"
+ }
+]

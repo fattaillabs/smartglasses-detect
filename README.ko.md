@@ -8,6 +8,24 @@
 
 위 예시는 모두 학습에 쓰지 않은 테스트 묶음에서 골랐습니다. 초록은 카메라 판정과 제품이 모두 맞은 것이고, 주황은 카메라 판정은 맞았지만 제품이 틀린 것입니다.
 
+## 데모
+
+[![탐지 데모](docs/demo.gif)](docs/demo.mp4)
+
+학습과 테스트에 쓰지 않은 영상 다섯 편에서 3초씩 뽑은 여덟 구간입니다. 그림을 누르면 원본 화질 영상(27초, 소리 없음)이 열립니다. 왼쪽 아래 글은 실제로 쓰고 있는 것이고, 상자와 이름은 모델이 프레임마다 내린 판정입니다. 빨강은 카메라 안경, 노랑은 카메라 없는 스마트안경, 회색은 카메라 안경 아님입니다.
+
+카메라 판정은 여덟 구간 모두 맞았습니다. 제품 이름은 스마트안경 다섯 구간 중 넷이 맞았고, 로키드 구간은 카메라 안경으로 잡았지만 이름을 삼성 인텔리전트 아이웨어로 답했습니다. 구간은 안경 쓴 정면 얼굴이 보이는 곳으로 골랐고, 모델이 맞혔는지는 고르는 기준에 넣지 않았습니다.
+
+| 구간 | 원본 영상 |
+|---|---|
+| 오클리 메타 HSTN, 레이밴 메타 웨이페어러 | [CEONTHEMAKING, "Ray Ban Meta Gen 2 vs Oakley HSTN: The Truth After 60 Days!"](https://www.youtube.com/watch?v=kfbxKanX5D4) |
+| 일반 안경 | [Brittni D., "Zeelool Glasses Try-On Haul!"](https://www.youtube.com/watch?v=KDBnPk1xEKA) |
+| 메타 레이밴 디스플레이, 안경 없음 | [Ray-Ban \| Meta, "These AI Glasses Will Change Your Life? Meta Ray-Ban Display Review"](https://www.youtube.com/watch?v=aEglZkaLSig) |
+| 로키드 글래스, 안경 없음 | [ROAM it RALPH, "Are Smart Glasses Finally Worth Wearing? Rokid AI Glasses"](https://www.youtube.com/watch?v=SSWfdl9MToA) |
+| 엑스리얼 | [Garett, "Can AR Glasses Replace My Gaming Monitor? XREAL 1 Pro+ Review"](https://www.youtube.com/watch?v=1ZhGa8vGjOQ) |
+
+구간의 저작권은 각 제작자에게 있으며 비상업 연구 목적으로 실었습니다. 다른 영상 목록으로 이런 데모를 만들려면 `src/demo_scan.py`, `src/demo_video.py`, `src/demo_reel.py` 를 보십시오.
+
 ## 인식 대상
 
 2026년 11월 기준으로 한국에서 팔리는 카메라 스마트안경 전부를 목표로 합니다.
@@ -143,6 +161,7 @@ python src/make_figures.py eval/test_run4.json
 - `src/build_list.py`, `src/build_test_list.py` 학습·테스트 목록
 - `src/train.py`, `src/predict.py`, `src/evaluate.py`, `src/export.py` 학습, 판정, 평가, 내보내기
 - `src/gallery.py`, `src/make_figures.py` 결과 갤러리와 이 페이지의 그림
+- `src/demo_scan.py`, `src/demo_video.py`, `src/demo_reel.py` 데모 영상
 
 ## 라이선스
 
@@ -158,4 +177,4 @@ python src/make_figures.py eval/test_run4.json
 
 ## 삭제 요청
 
-데이터셋에는 공개된 영상과 사진에서 잘라낸 눈 주변 조각이 들어 있습니다. 본인이 나오거나 원본의 권리자인데 삭제를 원하면 [이슈](https://github.com/fattaillabs/smartglasses-detect/issues)에 파일 이름이나 원본 주소를 남겨 주십시오. 다음 데이터셋 릴리스에서 뺍니다.
+데이터셋에는 공개된 영상과 사진에서 잘라낸 눈 주변 조각이 들어 있고, 위 데모 영상에는 공개된 영상의 짧은 구간이 들어 있습니다. 본인이 나오거나 원본의 권리자인데 삭제를 원하면 [이슈](https://github.com/fattaillabs/smartglasses-detect/issues)에 파일 이름이나 원본 주소를 남겨 주십시오. 다음 데이터셋 릴리스에서 뺍니다.
