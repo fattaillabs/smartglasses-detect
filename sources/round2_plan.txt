@@ -1,0 +1,30 @@
+# 2차 수집 계획: <용도> <제품 라벨> <영상ID...>   (mixed = 여러 제품이 섞여 제품 학습에서는 빼는 영상)
+train adventurer cpzqmuHV3-Q KOLw_yD3Blk N_uSkVtBZ9A xMHXAGsh4fk
+train fury 8EixFooP8nw lWZB_GTd5eI p5TArpenVZQ
+train nova RI0U7PX7YAA 5bc7f4nVOO0
+train capri yAZ718z3U3I
+train aviator qvCB3CQ7zHE
+train zena fwzobR9zSjQ
+train wayfarer 7dMs8mC8_TA Vl-hAE2djcw XGOIvHozMlc 8X9OQFKv6OU
+train blazer 80aTB42PsiU A3Q2I_S86qw
+train scriber R4dLTQChZuo e5XOmZJHj9o
+train skyler 3OslbJc_ryM
+train vanguard 16BtgqlgXQQ 5_6Xj9shlnc HxZAD_g4I7w uzx8honnEbU vgIDmxzHkzI
+train oakmeta naxZ9oqvOcg oVg8ykBvWHg gE7OTe1cCFs zTLUhYWuUVQ 2bNefOjZPTo
+train display 4R8aQdyJlc4 5leFn0DcFc0 eYBMVFDeZDg l8MTb7CrC_k la1RAxcvBHc 31aetCu0AOg 5YcdXUjfBVA
+train rokid 2Mtt5M7p1u4 7bTg8xKerEo HQYmkAy94QQ pa1NTln95Tw r4S9bFOz_m0 TuLVPyyGYP0 bv5FDgl1xC4 pkNriAkVyj8 NpXaWEFpW5w
+train samsung 73-pjU97tGk SMleb_gBhvA -l4Whm9dTS8 Mgmuz2d_mOo RqTcwf2_oFY 8RhZ0_KB35M uwuANniADKs
+train xiaomi Fsi1z6m0pKc IoW5EMzR__Y _QO_-0V3QGk
+train clone u6FHsXHj84Y 18pf3i7rQRI
+train mixed 4QMosNbkDZc AEWhGZSzAX0 WldmomHy_dc 5P5aI_-9gK8 qRgVIqhte_M bUa5WrtSyq8 JDYEdZ36HAw M37T4r6-bc8 SsYJTBeUFsI mVtVZAqFKr8 Rsm9_-kyXvE phfc-ppWRnY IkdkxP2iQUc 4uI8oKv0y3s 0B7s4D6Rk2Y Rd8dN36kjzA zHvm2sv9O6M
+test adventurer noK0tTFmX2g
+test fury W6NRgxkSsJY
+test wayfarer HcmhbGMGeGM
+test blazer RbJmZKsq-VQ
+test scriber WhlrCpEf4NM
+test skyler 0SDovjqPiQw
+test vanguard kRmmhOUwwM4 6774rFG1VQs
+test display NTKC-LExZlI W1BjnWojvZo
+test rokid 1u8qNhSJdFg K4ExlWeTd1U wUUr5r906fE
+test samsung moq-myNQKL4 bkQMRcoSHRk
+test xiaomi gRmj-5Q6utM

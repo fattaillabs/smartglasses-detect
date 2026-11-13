@@ -1,0 +1,5 @@
+# 4차 수집: 카메라 없는 스마트안경(렌탈 업체 목록 참고). <용도> <제품 라벨> <영상ID...>
+train eveng2 2FKfyAhi-xk 65_6QrNG924 6ml0KKETYwg 7jfHBsmA4a0 aNVPKs2hMYk ecxmctLfnzs ERjwxuIH8GM MF_upPjRMcU nicEa8hhOmQ ttxR0LZ1FQw
+train xreal -xAzB0RUSHU 1GUZU3DgdEI 8ZRNwIXOOF4 B3-5wVMDc4s gzFbacIvvp0 SKi0Mlb69vA t6WO8I6ryPA 3IxjtTDOi2U
+test eveng2 dlW6a17NRew wIc2K88Ivyk wWOhdf2t3kU
+test xreal Qv7r5csFaRo ifNiJxrdQSw

@@ -1,0 +1,46 @@
+{
+ "backbone": "resnet18.a1_in1k",
+ "corner": "band",
+ "products": [
+  "none",
+  "wayfarer",
+  "headliner",
+  "skyler",
+  "adventurer",
+  "fury",
+  "nova",
+  "oakley_hstn",
+  "vanguard",
+  "display",
+  "rokid",
+  "samsung",
+  "xiaomi",
+  "eveng2",
+  "xreal"
+ ],
+ "no_camera_products": [
+  "eveng2",
+  "xreal"
+ ],
+ "threshold": 0.5,
+ "input": {
+  "band": [
+   192,
+   512
+  ],
+  "face_width_px": 400,
+  "corner_box": 168,
+  "corner_out": 224,
+  "mean": [
+   0.485,
+   0.456,
+   0.406
+  ],
+  "std": [
+   0.229,
+   0.224,
+   0.225
+  ]
+ },
+ "license": "CC BY-NC-SA 4.0"
+}

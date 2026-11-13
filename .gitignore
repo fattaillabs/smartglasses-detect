@@ -1,0 +1,10 @@
+.venv/
+data/
+dist/
+models/*
+!models/release/
+!models/face_landmarker.task
+logs/
+eval/
+__pycache__/
+.DS_Store

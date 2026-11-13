@@ -1,0 +1,7 @@
+# 3차 보충 수집: <용도> <제품 라벨> <영상ID...>
+train skyler 4JSc2SOpGJw iM-xbsIeTyA
+train scriber xvUi00xs1fI
+train xiaomi AS82xgH7M0o GbiILFDBcFQ QHJuFFzYQEQ dwgNbisBIJU
+train clone rvVfkkMBu3c lAMJqPGENN8
+train wayfarer NY4J1YQAdKM
+train mixed Y4XoqSsFKMw UybbF_AFHNk dan8uoWmQ60 OPoOX9YB5C4 J1vPJhbUfJ8 RIzjwvJsGZg smMr75oIfwQ tsjj9vvPkfg kOgluARLRl8
